@@ -31,7 +31,7 @@
     "@jsplumb/connector-flowchart": "^5.9.4",
     "@jsplumb/util": "^5.9.4",
     "@ngneat/transloco": "^4.1.0",
-    "@nrwl/angular": "14.4.2",
+    "@nrwl/angular": "^14.8.6",
     "firebase-admin": "^11.0.0",
     "firebase-functions": "^3.22.0",
     "lodash": "^4.17.21",
@@ -44,7 +44,7 @@
     "zone.js": "~0.11.4"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~14.0.0",
+    "@angular-devkit/build-angular": "^14.2.8",
     "@angular-eslint/eslint-plugin": "~14.0.0",
     "@angular-eslint/eslint-plugin-template": "~14.0.0",
     "@angular-eslint/template-parser": "~14.0.0",

@@ -3,16 +3,9 @@
   <h4 class="create-bot-name">
     {{ 'BOTS.FIELDS.NAME' | transloco }}
   </h4>
-  <input
-    type="text"
-    formControlName = "botName"
-    [placeholder]="'BOTS.FIELDS.NAME-PLACEHOLDER' | transloco"
-  />
-  <input 
-    type="file" 
-    formControlName="botImage"
-    [placeholder]="'BOTS.FIELDS.IMAGE-PLACEHOLDER' | transloco" 
-  />
+  <input type="text" formControlName = "botName" [placeholder]="'BOTS.FIELDS.NAME-PLACEHOLDER' | transloco"/>
+  <input class="input-outline" type="file" formControlName="botImage" [placeholder]="'BOTS.FIELDS.IMAGE-PLACEHOLDER' | transloco" />
+
   <h4>{{ 'BOTS.FIELDS.DESC' | transloco }}</h4>
   <textarea
     formControlName = "botDesc"
